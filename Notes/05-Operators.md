@@ -15,7 +15,7 @@ console.log(num3 > num1); // prints true
 consle.log(num1 < num3); // prints true
 ```
 
-![[Pasted image 20240829143552.png]]
+![[./images/Pasted_image_20240829143552.png]]
 
 ## Compare two values
 
@@ -30,7 +30,7 @@ console.log(num1 == num3); // prints false
 console.log(num1 == num2); // prints true
 ```
 
-![[Pasted image 20240829171706.png]]
+![[./images/Pasted_image_20240829171706.png]]
 
 We can see how in the last statement when comparing a number and a string the value returned is `true` that is because JavaScript does not differentiate the `type` and just see that both variables have a 20. That is because `==` is a **non-strict comparator**.
 
@@ -46,7 +46,7 @@ console.log(typeof num1);
 console.log(typeof num2);
 ```
 
-![[Pasted image 20240829173243.png]]
+![[./images/Pasted_image_20240829173243.png]]
 
 As we could see using the strict comparator `===` also takes into account the `type` of the variable.
 
@@ -56,7 +56,7 @@ Remember that we can use `parseInt()` to convert a string to a number in case th
 console.log(num1 === parseInt(num2)); // prints true
 ```
 
-![[Pasted image 20240829174046.png]]
+![[./images/Pasted_image_20240829174046.png]]
 
 ---
 

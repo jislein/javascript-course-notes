@@ -38,7 +38,7 @@ const product = "Tablet";
 product = "Monitor";
 ```
 
-![[Pasted image 20240820201945.png]]
+![[./images/Pasted_image_20240820201945.png]]
 
 2. Must be initialized at creation.
 
@@ -48,4 +48,4 @@ product = "Monitor";
 	console.log(product);
 ```
 
-![[Pasted image 20240820202732.png]] 
+![[./images/Pasted_image_20240820202732.png]] 

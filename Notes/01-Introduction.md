@@ -49,5 +49,4 @@ console.log("Message");
 console.timeEnd("Label");
 ```
 
-![[Pasted image 20240820184607.png]]
-
+![Picture](./images/Pasted_image_20240820184607.png)

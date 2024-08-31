@@ -27,7 +27,7 @@ console.log(product);
 console.log(product.length);
 ```
 
-![[Pasted image 20240827105005.png]]
+![[./images/Pasted_image_20240827105005.png]]
 
 If we want to search for a specific string or in this case the *index* where that string starts we use the `indexOf()` method.
 
@@ -40,7 +40,7 @@ console.log(product.indexOf("Monitor")); // prints 10
 console.log(product.indexOf("Tablet")); // prints -1
 ```
 
-![[Pasted image 20240827111426.png]]
+![[./images/Pasted_image_20240827111426.png]]
 
 Another method to search in a string is `includes()`.
 
@@ -67,7 +67,7 @@ console.log(product.concat(price));
 console.log(product.concat('in Sale.'));
 ```
 
-![[Pasted image 20240827124135.png]]
+![[./images/Pasted_image_20240827124135.png]]
 
 We can use `+` sign:
 
@@ -79,7 +79,7 @@ console.log(product + " whit a price of: " + price);
 console.log("The product " + product + "has a price of " + price);
 ```
 
-![[Pasted image 20240827131219.png]]
+![[./images/Pasted_image_20240827131219.png]]
 
 Now days the most recommended way to concatenate string is using Template String. For this one we must use backticks (\`) instead of single (') or double (") quotes to create the string. and put the variable inside the string with the fallowing format: `${variable}`. We can also make any kind of operation or even call a function inside the keys ({).
 
@@ -90,7 +90,7 @@ const price = "30 USD ";
 console.log(`The product ${product} has the price of ${price}`);
 ```
 
-![[Pasted image 20240827132904.png]]
+![[./images/Pasted_image_20240827132904.png]]
 
 ## Cut white spaces from a String
 
@@ -109,7 +109,7 @@ console.log(product.trimStart());
 console.log(product.trimEnd());
 ```
 
-![[firefox_l2dZBi1ZY1.gif]]
+![[./images/firefox_l2dZBi1ZY1.gif]]
 
 As you could see when we executed `trimEnd()` the spaces at the beginning stayed there.
 
@@ -139,7 +139,7 @@ console.log(product.replace('inches', '"'));
 console.log(product.replace("Monitor", "Curved Monitor"));
 ```
 
-![[Pasted image 20240827182248.png]]
+![[./images/Pasted_image_20240827182248.png]]
 
 Another method is `slice()`. We can use `slice()` to cut from a given index to a given index.
 
@@ -156,7 +156,7 @@ console.log(product.slice(10)); // prints Monitor
 console.log(product.slice(2, 1));
 ```
 
-![[Pasted image 20240827195500.png]]
+![[./images/Pasted_image_20240827195500.png]]
 
 The `substring()` method is an alternative to `slice()`.
 
@@ -172,7 +172,7 @@ console.log(product.substring(0, 10)); // prints '20 inches '
 console.log(product.substring(2, 1));
 ```
 
-![[Pasted image 20240827200849.png]]
+![[./images/Pasted_image_20240827200849.png]]
 
 If we want to cut at an specific index of the string we can use the `charAt()` method.
 
@@ -195,7 +195,7 @@ console.log(text);
 console.log(`${product} ${text} !!!`);
 ```
 
-![[Pasted image 20240827205220.png]]
+![[./images/Pasted_image_20240827205220.png]]
 
 >[!important]
 >If you pass a **number with decimals** as a parameter the method will floor it.
@@ -218,7 +218,7 @@ const hhobbies = 'Read, walk, listen to music, write, learn to program';
 console.log(hobbies.split(", "));
 ```
 
-![[Pasted image 20240827211102.png]]
+![[./images/Pasted_image_20240827211102.png]]
 
 ### Convert to Uppercase or Lowercase
 
@@ -231,7 +231,7 @@ console.log(product.toUpperCase());
 console.log(product.toLowerCase());
 ```
 
-![[Pasted image 20240827234253.png]]
+![[./images/Pasted_image_20240827234253.png]]
 
 ### Convert a Number to String
 
@@ -243,6 +243,6 @@ console.log(price);
 console.log(price.toString());
 ```
 
-![[Pasted image 20240827234604.png]]
+![[./images/Pasted_image_20240827234604.png]]
 
 We can differentiate the types on the console knowing that number variables are colored green and strings are colored black.

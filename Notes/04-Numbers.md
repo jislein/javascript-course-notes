@@ -59,7 +59,7 @@ console.log(num1);
 console.log(Number.parseInt(num1));
 ```
 
-![[Pasted image 20240828195545.png]]
+![[./images/Pasted_image_20240828195545.png]]
 
 We can use `typeof` in front of a variable to get its type.
 
@@ -70,7 +70,7 @@ console.log(typeof num1);
 console.log(typeof Number.parseInt(num1));
 ```
 
-![[Pasted image 20240828200807.png]]
+![[./images/Pasted_image_20240828200807.png]]
 
 We can also use `Number.parseFloat()` to convert string numbers with decimals.
 
@@ -81,7 +81,7 @@ console.log(num2);
 console.log(Number.parseFloat(num2));
 ```
 
-![[Pasted image 20240829104857.png]]
+![[./images/Pasted_image_20240829104857.png]]
 
 If we try to parse a string that is not a number we get a `NaN`. This value means "Not a Number".
 
@@ -91,7 +91,7 @@ const num3 = "One";
 console.log(Number.parseInt(num3));
 ```
 
-![[Pasted image 20240829105452.png]]
+![[./images/Pasted_image_20240829105452.png]]
 
 We can ask if a number is an integer or not with the `Number.isInteger()` method.
 
@@ -105,5 +105,5 @@ console.log(Number.isInteger(num4));
 console.log(Number.isInteger(num2));
 ```
 
-![[Pasted image 20240829105932.png]]
+![[./images/Pasted_image_20240829105932.png]]
 
